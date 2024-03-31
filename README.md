@@ -29,7 +29,7 @@ GreenDB makes use of the tool, DBJoules, a tool designed to measure the energy c
 
 DBJoules uses psutil package to measure energy consumption. The tool is developed to compare energy consumed by CPU and RAM for query execuation. The internal workflow is described in the below figure.
 
-![DBJoules_Workflow](https://github.com/LellaHemasriSai/GreenDB/assets/91315524/68b5995c-290b-4f0c-906b-def32566e644)
+![DBJoules_Workflow](https://github.com/LellaHemasriSai/GreenDB/assets/91315524/f829386a-619f-4745-b69c-9340498ab7d1)
 
 # Packages Used
 
