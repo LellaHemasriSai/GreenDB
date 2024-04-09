@@ -10,7 +10,7 @@ GreenDB makes use of the tool, DBJoules, a tool designed to measure the energy c
 
 1. Windows Operating System</li>
 2. Have <a href="https://www.python.org/downloads/">Python</a>, <a href="https://dev.mysql.com/downloads/installer/">MySQL</a>, <a href="https://www.postgresql.org/download/">PostgreSQL</a>, <a href="https://www.mongodb.com/try/download/community">MongoDB</a>, <a href="https://www.couchbase.com/downloads/?family=couchbase-server">Couchbase</a> installed in your system.</li>
-3. It is recommended to download couchbase-server of version 7.2.0.</li>
+
 
 # Steps to run
 
@@ -40,6 +40,15 @@ DBJoules uses psutil package to measure energy consumption. The tool is develope
 4. **couchbase**: This module allows Python applications to access a Couchbase cluster efficiently.
 5. **psutil.cpu_percent()**: This function gathers CPU utilization percentage for calculating energy consumed by CPU.
 6. **psutil.virtual_memory()**: This function provides the allocated memory for calculating energy consumed by RAM.
+
+# Versions of Database systems and Connection packages
+
+| Database System  | Version | Database Connection Package  | Version|
+| ------------- | ------------- | ------------- | ------------- |
+|  MySQL | 8.0.34  | mysql-connector-python | 8.0.32  |
+| PostgreSQL  | 15.3  | psycopg2  | 2.9.6  |
+| MongoDB  | 5.0.12  | pymongo  | 4.3.3  |
+| Couchbase  | 7.2.5325  | couchbase  | 4.1.7  |
 
 # Datasets
 
